@@ -1,2 +1,0 @@
-**bold text** 
-#my heading
