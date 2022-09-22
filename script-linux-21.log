@@ -1,0 +1,28 @@
+Script started on 2022-09-21 21:24:39-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="104" LINES="26"]
+]0;ekambarov@LAPTOP-K08I4AP0: ~/lab3/3142Lab2[01;32mekambarov@LAPTOP-K08I4AP0[00m:[01;34m~/lab3/3142Lab2[00m$ git --[K[Kadd --a;;[K[Kll
+]0;ekambarov@LAPTOP-K08I4AP0: ~/lab3/3142Lab2[01;32mekambarov@LAPTOP-K08I4AP0[00m:[01;34m~/lab3/3142Lab2[00m$ status
+
+Command 'status' not found, did you mean:
+
+  command 'qstatus' from deb gridengine-client (8.1.9+dfsg-9build2)
+  command 'states' from deb enscript (1.6.5.90-3)
+  command 'statfs' from deb gocryptfs (1.7.1-1)
+
+Try: sudo apt install <deb name>
+
+]0;ekambarov@LAPTOP-K08I4AP0: ~/lab3/3142Lab2[01;32mekambarov@LAPTOP-K08I4AP0[00m:[01;34m~/lab3/3142Lab2[00m$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   ex.md[m
+	[32mnew file:   gitCommands.md[m
+	[32mnew file:   ref.md[m
+	[32mnew file:   script-linux-21.log[m
+	[32mnew file:   time-2022-09-21.txt[m
+
+]0;ekambarov@LAPTOP-K08I4AP0: ~/lab3/3142Lab2[01;32mekambarov@LAPTOP-K08I4AP0[00m:[01;34m~/lab3/3142Lab2[00m$ exit
+exit
+
+Script done on 2022-09-21 21:25:05-04:00 [COMMAND_EXIT_CODE="0"]
