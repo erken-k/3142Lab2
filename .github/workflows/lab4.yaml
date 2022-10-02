@@ -1,0 +1,25 @@
+name: Lab 4 Workflow
+on:
+  push:
+    branches: 
+      -'lab4/**' 
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Running 3_17
+        run: make 3_17
+      - name: Running 3_23
+        run: make 3_23
+      - name: Running 4_28
+        run: make 4_28
+      - name: Running Dose
+        run: make dose
+      - name: Running inflation
+        run: make infl
+      - uses: actions/checkout@v
+      
+
+
+      
+  
