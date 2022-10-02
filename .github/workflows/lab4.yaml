@@ -11,7 +11,6 @@ jobs:
       - uses: actions/checkout@master
       - name: Running 3_17
         run: make 3_17
-        working-directory: ${{env.working-directory}}
       - name: Running 3_23
         run: make 3_23
       - name: Running 4_28
