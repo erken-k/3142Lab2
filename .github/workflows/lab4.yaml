@@ -4,7 +4,7 @@ jobs:
   build:
       runs-on: ubuntu-latest
       steps:
-      - run: cd lab4
+      - run: cd tree/master/lab4
       - name: Running 3_17
         run: make 3_17
       - name: Running 3_23
