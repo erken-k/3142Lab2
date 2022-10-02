@@ -16,7 +16,7 @@ jobs:
         run: make infl
       - name: Cleaning up .out files
         run: make clean
-      - uses: actions/checkout@v
+
       
 
 
