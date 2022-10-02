@@ -3,9 +3,6 @@ on: [push]
 jobs:
   build:
       runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: "https://github.com/erken-k/3142Lab2/lab4"
       steps:
       - run: pwd
       - run: cd ..
