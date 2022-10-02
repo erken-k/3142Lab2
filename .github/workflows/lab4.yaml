@@ -1,8 +1,5 @@
 name: Lab 4 Workflow
-on:
-  push:
-    branches: 
-      -'lab4/**' 
+on: [push] 
 jobs:
   build:
       runs-on: ubuntu-latest
