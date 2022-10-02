@@ -3,6 +3,9 @@ on: [push]
 jobs:
   build:
       runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: ./lab4
       steps:
       - run: pwd
       - run: cd ..
