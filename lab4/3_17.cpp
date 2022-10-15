@@ -27,6 +27,5 @@ int main(){
         }
         cout << stringVector[i] << " ";
 }
-
-
+cout<<endl;
 }

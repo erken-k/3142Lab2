@@ -10,15 +10,17 @@ int main()
 	while(repeat[0]=='y'){
 		cout<< "Enter the amount necessary to kill a mouse:  ";
 		cin>>miceDose;
-		cout<<"Enter the the weight of the mouse:  ";
+		cout<<endl<<"Enter the the weight of the mouse:  ";
 		cin>>weightOfMouse;
-		cout<<"Enter the the weight of the dieter (when he stops dieting):  ";
+		cout<<endl<<"Enter the the weight of the dieter (when he stops dieting):  ";
 		cin>>weightOfDieter;
 		double sweetenerInCan=350.0/1000;
 		const double lethalForHuman=weightOfDieter*miceDose/weightOfMouse;
-		cout<<"Lethal number of cans for this person is: "<<lethalForHuman/sweetenerInCan;
+		cout<<endl<<"Lethal number of cans for this person is:  "<<lethalForHuman/sweetenerInCan;
 		cout<<endl<<"Would you like to repeat these calculations? (y/n): ";
 		cin>>repeat;
-															        }
+			
+	}
+	cout<<endl;
 	return 0;
 }
