@@ -2,8 +2,13 @@ name: Lab 4 Workflow
 on: [push] 
 jobs:
   build:
+  
       runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: ./lab4
       steps:
+      - uses: actions/checkout@master
       - name: Running 3_17
         run: make 3_17
       - name: Running 3_23
@@ -16,7 +21,7 @@ jobs:
         run: make infl
       - name: Cleaning up .out files
         run: make clean
-      - uses: actions/checkout@v
+
       
 
 
