@@ -1,12 +1,16 @@
 name: Lab 5 Workflow
-on: [push] 
+on:
+  push:
+    branches:
+      - main
+      - 'lab5/**'
 jobs:
   build:
   
       runs-on: ubuntu-latest
       defaults:
         run:
-          working-directory: ./lab4
+          working-directory: ./lab5
       steps: 
       - uses: actions/checkout@master
       - name: Running Part 1
