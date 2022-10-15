@@ -1,9 +1,5 @@
 name: Lab 5 Workflow
-on:
-  push:
-    branches:
-      - main
-      - 'lab5/**'
+on: [push]
 jobs:
   build:
   
