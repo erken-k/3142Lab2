@@ -1,0 +1,18 @@
+name: Lab 5 Workflow
+on: [push]
+jobs:
+  build:
+  
+      runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: ./lab5
+      steps: 
+      - uses: actions/checkout@master
+      - name: Running Part 1
+        run: make pp1
+      - name: Running Part 2
+        run: make pp2
+      - name: Running  Part 2
+        run: make pp3
+        
