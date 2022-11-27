@@ -1,0 +1,19 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+int main(){
+       	fstream fin;     
+       	fin.open("weather.csv", ios::in);
+	cout<<"done"<<endl;
+	string c;
+	getline(fin, c);
+	cout<<c;
+	getline(fin, c);
+	cout<<c;
+	getline(fin, c);
+	cout<<c;
+	return 0;
+}
