@@ -1,0 +1,13 @@
+name: Lab 10 Workflow
+on: [push]
+jobs:
+  build:
+  
+      runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: ./lab10
+      steps: 
+      - uses: actions/checkout@master
+      - name: Running ex10.cpp
+        run: make ex10
